@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: ed9efbfecec029847bd3e9bd83bba584
-timeCreated: 1518406001
+guid: b00590cdaabcda24e989ef201fe61ef5
+timeCreated: 1518589179
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -9,34 +9,35 @@ ModelImporter:
     100002: Cylinder
     100004: hammer
     100006: handel
-    100008: rotating_cylinder
+    100008: rotating cylinder
     100010: Sphere
+    100012: Sun
     400000: //RootNode
     400002: Cylinder
     400004: hammer
     400006: handel
-    400008: rotating_cylinder
+    400008: rotating cylinder
     400010: Sphere
+    400012: Sun
     2100000: metal
     2100002: wood
     2100004: pins
     2300000: Cylinder
     2300002: hammer
     2300004: handel
-    2300006: rotating_cylinder
+    2300006: rotating cylinder
     2300008: Sphere
     3300000: Cylinder
     3300002: hammer
     3300004: handel
-    3300006: rotating_cylinder
+    3300006: rotating cylinder
     3300008: Sphere
     4300000: Cylinder
     4300002: Sphere
     4300004: handel
     4300006: hammer
-    4300008: rotating_cylinder
-    7400000: Default Take
-    9500000: //RootNode
+    4300008: rotating cylinder
+    10800000: Sun
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -111,7 +112,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
