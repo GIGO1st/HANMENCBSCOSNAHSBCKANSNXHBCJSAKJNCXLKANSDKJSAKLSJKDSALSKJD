@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 7d70d989f640bf848806e4420f308c35
+timeCreated: 1518654836
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: barrel
+    100004: body
+    100006: Bone
+    100008: Bone_end
+    100010: botem railing
+    100012: hand
+    100014: ironsights
+    100016: magiene
+    100018: middle_botem
+    100020: middle_middle
+    100022: middle_top
+    100024: middle_top_end
+    100026: pinkie_botem
+    100028: pinkie_middle
+    100030: pinkie_Top
+    100032: pinkie_Top_end
+    100034: pointer_botem
+    100036: pointer_Middle
+    100038: pointer_Top
+    100040: pointer_Top_end
+    100042: railing top
+    100044: ring_Bottem
+    100046: ring_middle
+    100048: ring_Top
+    100050: ring_Top_end
+    100052: thumb_Bottem
+    100054: thumb_Top
+    100056: thumb_Top_end
+    100058: triger
+    100060: //RootNode
+    400000: Armature
+    400002: barrel
+    400004: body
+    400006: Bone
+    400008: Bone_end
+    400010: botem railing
+    400012: hand
+    400014: ironsights
+    400016: magiene
+    400018: middle_botem
+    400020: middle_middle
+    400022: middle_top
+    400024: middle_top_end
+    400026: pinkie_botem
+    400028: pinkie_middle
+    400030: pinkie_Top
+    400032: pinkie_Top_end
+    400034: pointer_botem
+    400036: pointer_Middle
+    400038: pointer_Top
+    400040: pointer_Top_end
+    400042: railing top
+    400044: ring_Bottem
+    400046: ring_middle
+    400048: ring_Top
+    400050: ring_Top_end
+    400052: thumb_Bottem
+    400054: thumb_Top
+    400056: thumb_Top_end
+    400058: triger
+    400060: //RootNode
+    2100000: Material
+    2100002: Material.001
+    2300000: barrel
+    2300002: body
+    2300004: botem railing
+    2300006: ironsights
+    2300008: magiene
+    2300010: railing top
+    2300012: triger
+    3300000: barrel
+    3300002: body
+    3300004: botem railing
+    3300006: ironsights
+    3300008: magiene
+    3300010: railing top
+    3300012: triger
+    4300000: magiene
+    4300002: barrel
+    4300004: ironsights
+    4300006: railing top
+    4300008: triger
+    4300010: body
+    4300012: botem railing
+    4300014: hand
+    9500000: //RootNode
+    13700000: hand
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
