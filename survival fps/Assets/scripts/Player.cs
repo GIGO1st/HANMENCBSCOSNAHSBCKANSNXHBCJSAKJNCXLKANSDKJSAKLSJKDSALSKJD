@@ -31,6 +31,7 @@ public class Player : MonoBehaviour {
         {
             Die();
         }
+        
 
     }
 
@@ -41,5 +42,11 @@ public class Player : MonoBehaviour {
         print("you have died from thirst or hunger");
     }
 
+
+    public void Drink(float decreaseValue)
+    {
+        thirst -= decreaseValue;
+
+    }
 
 }

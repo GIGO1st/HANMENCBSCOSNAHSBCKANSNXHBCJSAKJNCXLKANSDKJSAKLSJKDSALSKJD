@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     
     private bool hovered;
@@ -13,8 +13,11 @@ public class slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public GameObject item;
     public Texture itemIcon;
 
+    private GameObject player;
+
     void Start()
     {
+        player = GameObject.FindWithTag("Player");
         hovered = false;
     }
 
@@ -30,6 +33,8 @@ public class slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         else
         {
             empty = true;
+            itemIcon = null;
+            this.GetComponent<RawImage>().texture = null;
         }
             
     }
@@ -43,5 +48,24 @@ public class slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         hovered = false;
     }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (item)
+        {
+            Item thisItem = item.GetComponent<Item>();
+
+            //check for item type
+            if(thisItem.type == "Water")
+            {
+                player.GetComponent<Player>().Drink(thisItem.decreaseValue);
+                Destroy(item);
+            }
+
+        }
+
+    }
+
+
 
 }
